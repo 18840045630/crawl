@@ -1,0 +1,2 @@
+打开浏览器，打开开发人员模式，点击题目给出的条件，找到network中出现的链接，找到data，url，headers
+requests.post(url,data=urlencode(data),headers=he),发送post请求获得数据，然后再建立csv文件写入数据即可。
